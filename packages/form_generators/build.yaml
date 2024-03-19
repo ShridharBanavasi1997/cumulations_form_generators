@@ -1,0 +1,17 @@
+targets:
+  $default:
+    builders:
+      cumulations_form_generators:
+        enabled: true
+        generate_for:
+          exclude:
+            - example
+
+builders:
+  cumulations_form_generators:
+    import: "package:cumulations_form_generators/cumulations_form_generators.dart"
+    builder_factories: [ "cumulationFormGenerators" ]
+    build_extensions: { "$_form.dart": [ ".g.dart" ] }
+    auto_apply: dependents
+    build_to: source
+
