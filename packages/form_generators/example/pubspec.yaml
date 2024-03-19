@@ -38,8 +38,7 @@ dependencies:
   intl: ^0.19.0
   equatable: ^2.0.5
   aligned_dialog: ^0.0.7
-  cumulations_form_annotations:
-    path: ../../form_annotations/
+  cumulations_form_annotations: ^1.0.0
 
 dev_dependencies:
   flutter_test:

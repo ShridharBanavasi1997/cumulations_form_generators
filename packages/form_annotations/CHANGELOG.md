@@ -1,3 +1,3 @@
-## 1.0.0-1
+## 1.0.2
 
 - Modified the document to make it more understandable

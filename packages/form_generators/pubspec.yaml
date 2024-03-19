@@ -1,8 +1,9 @@
 name: cumulations_form_generators
 description: This package is used to generate forms for data classes. It uses annotations to generate the form. The package also includes a form generator that generates the form based on the cumulation_form_annotations
-version: 1.0.0-1
+version: 1.0.1
 homepage: https://github.com/ShridharBanavasi1997/cumulations_form_generators
 repository: https://github.com/ShridharBanavasi1997/cumulations_form_generators.git
+issue_tracker: https://github.com/ShridharBanavasi1997/cumulations_form_generators/issues
 
 environment:
   sdk: '>=2.18.1 <4.0.0'
